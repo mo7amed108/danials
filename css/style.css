@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1 */
+header {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overly {
+    width: 100%;
+    height: 100%;
+    background-color: #00000082;
+}
+
+.logo {
+    color: white;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.line-parent {
+    position: relative;
+}
+
+.line-link::after {
+    content: "   ";
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    height: 1px;
+    width: 40px;
+    background: white;
+}
+
+.header-content {
+    margin: 200px;
+}
+
+header {
+    color: white;
+
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.header-content h2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header-content h2::after {
+    content: " |";
+    animation: move 5s infinite;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+
+@keyframes move {
+    0% {
+        content: "d|";
+    }
+
+    2% {
+        content: "de|";
+    }
+
+    4% {
+        content: " dev|";
+    }
+
+    6% {
+        content: "deve|";
+    }
+
+    8% {
+        content: "devel|";
+    }
+
+    10% {
+        content: "develo|";
+    }
+
+    12% {
+        content: "develope|";
+    }
+
+    14% {
+        content: "developer|";
+    }
+
+    16% {
+        content: "develope|";
+    }
+
+    18% {
+        content: "develop|";
+    }
+
+    20% {
+        content: "develo|";
+    }
+
+    22% {
+        content: "devel|";
+    }
+
+    24% {
+        content: "deve|";
+    }
+
+    26% {
+        content: "dev|";
+    }
+
+    28% {
+        content: "de|";
+    }
+
+    30% {
+        content: "d|";
+    }
+
+    32% {
+        content: "|";
+    }
+
+    34% {
+        content: "d|";
+    }
+
+    36% {
+        content: "de|";
+    }
+
+    38% {
+        content: "des|";
+    }
+
+    40% {
+        content: "desi|";
+    }
+
+    40% {
+        content: "desig|";
+    }
+
+    44% {
+        content: "design|";
+    }
+
+    46% {
+        content: "designe|";
+    }
+
+    48% {
+        content: "designer|";
+    }
+
+    50% {
+        content: "designe|";
+    }
+
+    52% {
+        content: "design|";
+    }
+
+    54% {
+        content: "desig|";
+    }
+
+    56% {
+        content: "desi|";
+    }
+
+    58% {
+        content: "des|";
+    }
+
+    60% {
+        content: "de|";
+    }
+
+    62% {
+        content: "d|";
+    }
+
+    64% {
+        content: "|";
+    }
+
+    66% {
+        content: "l|";
+    }
+
+    68% {
+        content: "la|";
+    }
+
+    72% {
+        content: "lar|";
+    }
+
+    74% {
+        content: "larry|";
+    }
+
+    76% {
+        content: "larry d|";
+    }
+
+    78% {
+        content: "larrt da|";
+    }
+
+    80% {
+        content: "larry dani|";
+    }
+
+    82% {
+        content: "larry danils|";
+    }
+
+    84% {
+        content: "larry dani|";
+    }
+
+    86% {
+        content: "larry da|";
+    }
+
+    88% {
+        content: "larry d|";
+    }
+
+    90% {
+        content: "larry |";
+    }
+
+    92% {
+        content: "larr|";
+    }
+
+    94% {
+        content: "lar|";
+    }
+
+    96% {
+        content: "la|";
+    }
+
+    98% {
+        content: "l|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+.header-icon {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+
+/* 2 */
+.hero-h2 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+
+
+}
+
+.hero-p1 {
+    font-size: 13px;
+    color: #748182;
+}
+
+.hero-p2 {
+    color: #748182;
+}
+
+
+.rate-about {
+    width: 95%;
+    height: 25px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    
+
+
+}
+
+.rate-about2 {
+    width: 5%;
+    height: 25px;
+    background-color: beige;
+    border-radius: 5px 5px 5px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 2px;
+    
+
+}
+
+.rate-brand {
+    width: 95%;
+    height: 25px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.rate-brand2 {
+    width: 20%;
+    height: 25px;
+    background-color: beige;
+    border-radius: 5px 5px 5px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 2px;
+
+}
+
+.rate-develop {
+    width: 95%;
+    height: 25px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.rate-develop2 {
+    width: 10%;
+    height: 25px;
+    background-color: beige;
+    border-radius: 5px 5px 5px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 2px;
+
+}
+
+.btn-black {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+
+}
+
+.btn-white {
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.btn-black:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn-white:hover {
+    color: white;
+    background-color: black;
+}
+
+/* 3 */
+.Services {
+    background-color: #f1f1f1;
+}
+
+.Services-h2 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+.services-icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.services-hover:hover .services-icon {
+    background: black;
+    color: #f4f4f4;
+
+
+}
+
+.services-h6 {
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.services-p {
+    color: #748182;
+    line-height: 1.6;
+    word-spacing: 2px;
+    font-size: 14px;
+}
+
+/* 4 */
+.Portfolio-h2 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+
+.Portfolio-layer {
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.904);
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.layer:hover {
+    opacity: 1;
+}
+
+.layer h6 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.Portfolio-hov-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+}
+
+.Portfolio-hov-icon:hover {
+    border: 1px solid #111;
+    background: #eee;
+    color: black;
+}
+
+/* 5 */
+.Testimonials {
+    background-color: #f1f1f1;
+}
+
+.one {
+    background-color: #f1f1f1;
+}
+
+.carousel-item p {
+
+    color: #748182;
+    line-height: 1.6;
+    word-spacing: 2px;
+    font-size: 15px;
+}
+
+.carousel-item h6 {
+
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0 5px;
+}
+
+.carousel-indicators {
+    position: unset;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* 6 */
+.number h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.number i {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.number p {
+    color: #748182;
+    line-height: 1.6;
+    word-spacing: 2px;
+    font-size: 15px;
+}
+
+/* 7 */
+.Blog {
+    background-color: #f1f1f1;
+}
+
+.blog-master {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+.blog-hov a:hover {
+    color: inherit;
+}
+
+.blog-trends {
+    color: gray;
+    font-size: 13px;
+}
+
+.blog-image {
+    transition: all 0.5s;
+}
+
+.blog-image:hover {
+    transform: scale(1.1);
+}
+
+.blog-hight {
+    height: 356.35px;
+}
+
+.btn-background {
+    background-color: #f1f1f1;
+}
+
+.textarea {
+    color: gray;
+    background-color: #f1f1f1;
+    height: 160px;
+    max-height: 160px;
+    max-width: 96%;
+
+}
